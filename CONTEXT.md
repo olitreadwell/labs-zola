@@ -26,7 +26,7 @@
 - #1297 Fresh Zones outdated link — reported dead link, needs live verification
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- (none yet)
+- #1297 Fresh Zones outdated link — addressed 2026-08-26 in fork PR olitreadwell/labs-zola#2 (base develop). Verified live: old special-areas-rules page is contentNotFound on the DCP content API; replacement rules-for-special-areas#fresh confirmed. Bundled with 2 more verified broken external links in layer-record-views (Commercial Districts C1-C2 anchor x3, E-Designation OER URL) per trivial_fix_rules (min 3). Do not re-pick.
 
 ## Mined gaps (discovered, not yet attempted)
-- (none yet)
+- Broken external links in layer-record-views (verified live, fixed in PR #2): Commercial Districts links used a dead #C1-C2-overlays anchor (page has id="C1-C2"); E-Designation link pointed at a "page has moved" stub (new URL https://www1.nyc.gov/site/oer/remediation/e-designation.page). Both confirmed via DCP content API + live requests.
