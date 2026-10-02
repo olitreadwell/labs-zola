@@ -20,7 +20,7 @@ This repository has two evergreen branches: `master` and `develop`
 
 ## 🤓 Be cool
 
-We want to ensure a welcoming environment for all of our projects. Planning Labs follows the [18F Code of Conduct](https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) and all contributors should do the same.
+We want to ensure a welcoming environment for all of our projects. Planning Labs follows the [18F Code of Conduct](https://web.archive.org/web/2020/https://github.com/18F/code-of-conduct/blob/master/code-of-conduct.md) and all contributors should do the same.
 
 ## 🤝 Public domain
 
