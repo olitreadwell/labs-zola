@@ -1,5 +1,5 @@
 # NYCPlanning/labs-zola context
-> refreshed 2026-08-26 | upstream default: develop @ a31db6e6
+> refreshed 2026-10-11 | upstream default: develop @ a31db6e6
 
 ## Identity & policies
 - upstream: NYCPlanning/labs-zola, default branch `develop`, primary language JavaScript (Ember.js 4.12, Octane edition)
@@ -27,6 +27,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - #1297 Fresh Zones outdated link — addressed 2026-08-26 in fork PR olitreadwell/labs-zola#2 (base develop). Verified live: old special-areas-rules page is contentNotFound on the DCP content API; replacement rules-for-special-areas#fresh confirmed. Bundled with 2 more verified broken external links in layer-record-views (Commercial Districts C1-C2 anchor x3, E-Designation OER URL) per trivial_fix_rules (min 3). Do not re-pick.
+- 2026-10-11 trivial-cleanup pass — attempted, fork PR olitreadwell/labs-zola#4 (`fix/doc-typos-and-stale-test-command`, base develop, 4 files +6/-6): (a) zoning-district.js r5b description said "R4B districts also permit detached and semi-detached buildings" -> "R5B districts" (copy-paste from the r4b entry above); (b) CONTRIBUTING.md `[LICENSE](LICENSE.md)` -> `[LICENSE](LICENSE)` (LICENSE.md does not exist; the root file is LICENSE); (c) README.md Testing section `ember test -server` -> `ember test --server` (ember-cli only defines `--server`/`-s`; `-server` is not a valid flag); (d) README.md "Zola Search API" -> "ZoLa Search API" (x2, the app is branded ZoLa everywhere else); (e) tests/acceptance/navigating-to-qpd-url-breaks-test.js test title "doesnt" -> "doesn't". Do not re-pick any of these. Considered and rejected for this pass as out of the user-facing/fix scope: config/environment.js `['Special Enhanced Commercial District', ['EC', ' brooklyn']]` leading space in a currently-unused crosswalk value; app/router.js comment "hyperlinks to to the new route" duplicated word; data.cityofnewyork.us 404s only in mirage fixtures; s-media.nyc.gov map PDF 404 only in a test string; herokuapp/carto/acris endpoints in code, not docs.
 
 ## Mined gaps (discovered, not yet attempted)
 - Broken external links in layer-record-views (verified live, fixed in PR #2): Commercial Districts links used a dead #C1-C2-overlays anchor (page has id="C1-C2"); E-Designation link pointed at a "page has moved" stub (new URL https://www1.nyc.gov/site/oer/remediation/e-designation.page). Both confirmed via DCP content API + live requests.
