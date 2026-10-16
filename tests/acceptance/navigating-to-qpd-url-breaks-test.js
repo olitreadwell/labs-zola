@@ -12,7 +12,7 @@ module('Acceptance | navigating to qpd url breaks', function (hooks) {
     this.server.post('layer-groups', () => layerGroupsFixtures);
   });
 
-  test('Visiting index with QPs directly doesnt break', async function (assert) {
+  test("Visiting index with QPs directly doesn't break", async function (assert) {
     // this does not work - zoning districts are on
     await visit(
       '/?layer-groups=["building-footprints"%2C"commercial-overlays"%2C"subway"%2C"tax-lots"]'
