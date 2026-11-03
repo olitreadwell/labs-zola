@@ -137,11 +137,11 @@ const bldgclassLookup = {
   K8: 'Store Buildings (Taxpayers Included) - Big Box Retail Not Affixed & Standing On Own Lot with Parking',
   K9: 'Store Buildings (Taxpayers Included) - Miscellaneous',
 
-  L1: 'Loft Buildinghs - Over Eight Stores (Mid-Manhattan Type)',
-  L2: 'Loft Buildinghs - Fireproof and Storage Type (Without Stores)',
-  L3: 'Loft Buildinghs - Semi-Fireproof',
-  L8: 'Loft Buildinghs - With Retail Stores Other Than Type 1',
-  L9: 'Loft Buildinghs - Miscellaneous',
+  L1: 'Loft Buildings - Over Eight Stores (Mid-Manhattan Type)',
+  L2: 'Loft Buildings - Fireproof and Storage Type (Without Stores)',
+  L3: 'Loft Buildings - Semi-Fireproof',
+  L8: 'Loft Buildings - With Retail Stores Other Than Type 1',
+  L9: 'Loft Buildings - Miscellaneous',
 
   M1: 'Churches, Synagogues, etc. - Church, Synagogue, Chapel',
   M2: 'Churches, Synagogues, etc. - Mission House (Non-Residential)',
